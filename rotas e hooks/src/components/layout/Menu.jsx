@@ -18,7 +18,19 @@ const Menu = props => (
                     <Link to="/param/123">Param 01</Link>
                 </li>
                 <li>
-                    <Link to="/param">Param 02</Link>
+                    <Link to="/useState">Use State</Link>
+                </li>
+                <li>
+                    <Link to="/useEffect">Use Effect</Link>
+                </li>
+                <li>
+                    <Link to="/useRef">Use Ref</Link>
+                </li>
+                <li>
+                    <Link to="/useMemo">Use Memo</Link>
+                </li>
+                <li>
+                    <Link to="/useCallback">Use Callback</Link>
                 </li>
                 <li>
                     <Link to="/forget">404</Link>
