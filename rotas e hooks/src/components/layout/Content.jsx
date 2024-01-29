@@ -11,6 +11,7 @@ import UseEffect from "../../views/examples/UseEffect";
 import UseRef from "../../views/examples/UseRef";
 import UseMemo from "../../views/examples/UseMemo";
 import UseCallback from "../../views/examples/UseCallback";
+import UseContext from "../../views/examples/UseContext";
  
 const Content = props => (
   <main className="Content">
@@ -22,6 +23,7 @@ const Content = props => (
       <Route path="/useRef" element={<UseRef />} />
       <Route path="/useMemo" element={<UseMemo />} />
       <Route path="/useCallback" element={<UseCallback />} />
+      <Route path="/useContext" element={<UseContext />} />
       <Route path="/" exact element={<Home />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

@@ -33,6 +33,9 @@ const Menu = props => (
                     <Link to="/useCallback">Use Callback</Link>
                 </li>
                 <li>
+                    <Link to="/useContext">Use Context</Link>
+                </li>
+                <li>
                     <Link to="/forget">404</Link>
                 </li>
             </ul>
